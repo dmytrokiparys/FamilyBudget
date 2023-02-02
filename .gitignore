@@ -39,3 +39,7 @@ build/
 /.idea/
 /out/
 /src/main/java/Main.java
+/.idea/
+/.mvn/
+/out/
+/target/
