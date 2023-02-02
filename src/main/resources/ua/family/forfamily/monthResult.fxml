@@ -14,7 +14,7 @@
         <xAxis>
           <CategoryAxis animated="false" prefHeight="38.0" prefWidth="544.0" side="BOTTOM">
                <tickLabelFont>
-                  <Font size="10.0" />
+                  <Font size="7.0" />
                </tickLabelFont></CategoryAxis>
         </xAxis>
         <yAxis>
