@@ -43,3 +43,6 @@ build/
 /.mvn/
 /out/
 /target/
+/.mvn/
+/.idea/
+/out/

@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 
 public class MainController {
 
-    protected ObservableList<String> costs = FXCollections.observableArrayList("Продукти", "Комуналка", "Одяг", "Медикаменти", "Всяка всячина");
+    protected ObservableList<String> costs = FXCollections.observableArrayList("Продукти", "Комуналка", "Одяг", "Медикаменти", "Транспорт", "Всяка всячина");
 
     protected ObservableList<String> years = FXCollections.observableArrayList("2023", "2024","2025","2026","2027","2028","2029","2030","2031","2032","2033");
 
