@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #7fffd4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.family.forfamily.MainController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="30.0" prefWidth="146.0" text="Бюджетік">
+         <font>
+            <Font name="Ink Free" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="96.0" text="Хто тут?">
+         <font>
+            <Font name="Ink Free" size="44.0" />
+         </font>
+      </Label>
+      <Button fx:id="isHusband" layoutX="135.0" layoutY="187.0" mnemonicParsing="false" text="Чоловік">
+         <font>
+            <Font name="Ink Free" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="isWife" layoutX="375.0" layoutY="187.0" mnemonicParsing="false" text="Дружина">
+         <font>
+            <Font name="Ink Free" size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="AmountMoney" layoutX="243.0" layoutY="343.0" prefHeight="42.0" prefWidth="356.0" text="От скільки грошей у вас зараз є: ">
+         <font>
+            <Font name="Ink Free" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="StatisticButton" layoutX="14.0" layoutY="313.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="114.0" text="Подивитись, що ви наробили" wrapText="true">
+         <font>
+            <Font name="Ink Free" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

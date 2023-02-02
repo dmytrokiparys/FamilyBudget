@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #7fffd4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.family.forfamily.HusbandPageController">
+    <children>
+        <Label layoutX="14.0" layoutY="14.0" prefHeight="30.0" prefWidth="146.0" text="Бюджетік">
+            <font>
+                <Font name="Ink Free" size="31.0" />
+            </font>
+        </Label>
+
+        <Label fx:id="AmountMoney" layoutX="243.0" layoutY="343.0" prefHeight="42.0" prefWidth="356.0" text="От скільки грошей у вас зараз є: ">
+            <font>
+                <Font name="Ink Free" size="17.0" />
+            </font>
+        </Label>
+      <TextField fx:id="GainFieldH" layoutX="346.0" layoutY="111.0" />
+      <TextField fx:id="CostsFieldH" layoutX="346.0" layoutY="187.0" />
+      <Label layoutX="23.0" layoutY="113.0" text="Отут пиши, скільки грошей ти заробив: ">
+         <font>
+            <Font name="Ink Free" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="158.0" prefHeight="85.0" prefWidth="274.0" text="Признавайся, скільки витратив. Тільки чесно, бо вона ж все одно дізнається." wrapText="true">
+         <font>
+            <Font name="Ink Free" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="244.0" text="На що саме пішла ця сума?">
+         <font>
+            <Font name="Ink Free" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="GainButtonH" layoutX="479.0" layoutY="145.0" mnemonicParsing="false" text="Додаємо гроші" />
+      <Button fx:id="CostsButtonH" layoutX="473.0" layoutY="291.0" mnemonicParsing="false" text="Віднімаємо гроші" />
+      <Button fx:id="BackButtonH" layoutX="534.0" layoutY="56.0" mnemonicParsing="false" text="Назад" />
+      <ComboBox fx:id="CostBoxH" layoutX="346.0" layoutY="243.0" prefWidth="150.0" visibleRowCount="5" />
+    </children>
+</AnchorPane>

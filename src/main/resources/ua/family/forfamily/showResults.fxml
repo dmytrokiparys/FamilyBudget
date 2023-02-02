@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #7fffd4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.family.forfamily.ShowResults">
+   <children>
+      <Button fx:id="BackButton" layoutX="537.0" layoutY="14.0" mnemonicParsing="false" text="Назад" />
+      <PieChart fx:id="CurrentGraph" layoutX="14.0" layoutY="27.0" prefHeight="286.0" prefWidth="286.0" />
+      <Label fx:id="GraphLabel" layoutX="57.0" layoutY="328.0" text="Доходи/Витрати в цьому місяці">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="343.0" layoutY="27.0" prefHeight="55.0" prefWidth="172.0" text="Отут можна подивитись більш точні графіки по місяцях" wrapText="true">
+         <font>
+            <Font name="Ink Free" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="JanuaryButton" layoutX="347.0" layoutY="110.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Січень">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="FebruaryButton" layoutX="493.0" layoutY="110.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Лютий">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="MarchButton" layoutX="347.0" layoutY="157.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Березень">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="AprilButton" layoutX="493.0" layoutY="157.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Квітень">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="MayButton" layoutX="347.0" layoutY="206.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Травень">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="JuneButton" layoutX="493.0" layoutY="206.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Червень">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="JulyButton" layoutX="347.0" layoutY="251.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Липень">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="AugustButton" layoutX="493.0" layoutY="251.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Серпень">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="SeptemberButton" layoutX="347.0" layoutY="300.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Вересень">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="OctoberButton" layoutX="493.0" layoutY="300.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Жовтень">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="NovemberButton" layoutX="347.0" layoutY="350.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Листопад">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="DecemberButton" layoutX="493.0" layoutY="350.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="82.0" text="Грудень">
+         <font>
+            <Font name="Ink Free" size="15.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="YearBox" layoutX="388.0" layoutY="82.0" prefHeight="0.0" prefWidth="142.0" />
+   </children>
+</AnchorPane>
